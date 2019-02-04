@@ -31,7 +31,7 @@
         "ext-mbstring": "*",
         "ext-openssl": "*",
         "ext-curl": "*",
-        "ext-zip": "*",d
+        "ext-zip": "*",
         "ext-json": "*",
         "league/climate": "^3.2",
         "antoligy/dom-string-iterators": "^1.0",
