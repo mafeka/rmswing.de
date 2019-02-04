@@ -4,8 +4,8 @@ composer.phar
 
 ## Grav stuff
 !.gitkeep
-!README.md
 /*.md
+!README.md
 /LICENSE.txt
 /user/accounts/*.yaml
 /cache/*.json
