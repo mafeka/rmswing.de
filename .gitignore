@@ -3,11 +3,14 @@ composer.phar
 /vendor/
 
 ## Grav stuff
+!.gitkeep
+!/README.md
 /*.md
 /LICENSE.txt
 /user/accounts/*.yaml
-/cache/**/*
-!.gitkeep
+/cache/*.json
+/cache/*/
+
 
 ## Dev Environment
 .idea
