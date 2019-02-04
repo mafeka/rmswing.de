@@ -7,7 +7,6 @@ composer.phar
 /*.md
 !README.md
 /LICENSE.txt
-/user/accounts/*.yaml
 /cache/*.json
 /cache/*/
 
