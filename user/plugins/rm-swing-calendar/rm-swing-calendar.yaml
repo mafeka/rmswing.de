@@ -1,0 +1,20 @@
+enabled: true
+text_var: Custom Text added by the **Rm Swing Calendar** plugin (disable plugin to remove)
+route: /calendar-events
+calendar-sources:
+  social:
+    category:
+      en: Social Dance
+      de: Social Dance
+    urls:
+      ics: https://calendar.google.com/calendar/ical/s1nbnfmv1lnfc013iuuqg94oo8%40group.calendar.google.com/public/basic.ics
+      web: https://calendar.google.com/calendar/embed?src=s1nbnfmv1lnfc013iuuqg94oo8%40group.calendar.google.com&ctz=Europe%2FBerlin
+  class:
+    category:
+      en: Class
+      de: Unterricht
+    urls:
+      ics: https://calendar.google.com/calendar/ical/nnmbsl8464ifogcl3ld3lr1cs8%40group.calendar.google.com/public/basic.ics
+      web: https://calendar.google.com/calendar/embed?src=nnmbsl8464ifogcl3ld3lr1cs8%40group.calendar.google.com&ctz=Europe%2FBerlin
+number-of-events: 10
+date-format: j.n.Y G:i

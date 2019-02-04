@@ -1,0 +1,34 @@
+name: Rm Swing Calendar
+version: 0.1.0
+description: Fetches and renders our Google Calendars
+icon: plug
+author:
+  name: Felix
+  email: felix@kakrow.de
+homepage: https://github.com/mafeka/grav-plugin-rm-swing-calendar
+demo: http://demo.yoursite.com
+keywords: grav, plugin, etc
+bugs: https://github.com/mafeka/grav-plugin-rm-swing-calendar/issues
+docs: https://github.com/mafeka/grav-plugin-rm-swing-calendar/blob/develop/README.md
+license: MIT
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: PLUGIN_ADMIN.PLUGIN_STATUS
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+    text_var:
+      type: text
+      label: PLUGIN_RM_SWING_CALENDAR.TEXT_VARIABLE
+      help: PLUGIN_RM_SWING_CALENDAR.TEXT_VARIABLE_HELP
+    
+      
+      
