@@ -36,9 +36,7 @@
         "league/climate": "^3.2",
         "antoligy/dom-string-iterators": "^1.0",
         "miljar/php-exif": "^0.6.3",
-        "composer/ca-bundle": "^1.0",
-        "guzzlehttp/guzzle": "^6.3",
-        "johngrogg/ics-parser": "^2"
+        "composer/ca-bundle": "^1.0"
     },
     "require-dev": {
         "codeception/codeception": "^2.1",
