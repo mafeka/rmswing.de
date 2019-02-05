@@ -1,6 +1,7 @@
 ## Composer
 composer.phar
-/vendor/
+vendor/*
+!*/vendor/*
 
 ## Grav stuff
 !.gitkeep
