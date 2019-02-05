@@ -1,0 +1,3 @@
+[submodule "user/accounts"]
+	path = user/accounts
+	url = rmswing@puppis.uberspace.de:~/src/rmswing-accounts.git
