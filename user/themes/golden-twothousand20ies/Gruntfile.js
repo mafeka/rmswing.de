@@ -20,7 +20,7 @@ module.exports = function(grunt) {
 
       exec: {
         php_server: {
-            command: 'php -S localhost:1337 system/router.php',
+            command: 'php -S localhost:1337 system/router.php &',
             cwd: './../../../'
         }
       },
@@ -82,6 +82,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-exec');
   grunt.registerTask('default', ['sass', 'jshint', 'uglify']);
-  grunt.registerTask('dev', ['default', 'watch']);
+  grunt.registerTask('dev', ['default',  'exec:php_server', 'watch']);
 
 };
