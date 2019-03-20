@@ -1,0 +1,32 @@
+{
+  "name": "persoenliche-notizen.de",
+  "version": "0.0.1",
+  "description": "My personal blog",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^7.2.5",
+    "cssnano": "^3.10.0",
+    "grunt": "^1.0.1",
+    "grunt-": "^0.1.0",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-exec": "^3.0.0",
+    "grunt-sass": "^2.1.0",
+    "node-sass": "^4.11.0",
+    "postcss-color-function": "^4.0.1",
+    "sierra-library": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Felix Kakrow <felix@persoenliche-notizen.de>",
+  "license": "ISC"
+}
